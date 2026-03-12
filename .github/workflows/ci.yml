@@ -20,17 +20,35 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
 
-      - name: Build Product Service
+      - name: Build catalogue service
         run: |
-          cd product-service
+          cd catalogue-service
           mvn clean install
 
-      - name: Build Order Service
+      - name: Build commande service
         run: |
-          cd order-service
+          cd commande-service
           mvn clean install
 
-      - name: Build User Service
+      - name: Build config service
         run: |
-          cd user-service
+          cd config-service
           mvn clean install
+
+      - name: Build discovery service
+        run: |
+          cd discovery-service
+          mvn clean install
+
+      - name: Build gateway service
+        run: |
+          cd gateway-service
+          mvn clean install
+
+      - name: Build paiement service
+        run: |
+          cd paiement-service
+          mvn clean install
+
+      
+

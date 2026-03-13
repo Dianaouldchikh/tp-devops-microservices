@@ -50,5 +50,7 @@ jobs:
           cd paiement-service
           mvn clean install
 
-      
-
+      - name: Build Docker image catalogue-service
+        run: |
+          cd catalogue-service
+          docker build -t catalogue-service .

@@ -1,0 +1,5 @@
+nano : Le terme «nano» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou 
+programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin 
+d'accès est correct et réessayez. Au caractère Ligne:1 : 1 + nano discovery-deployment.yaml + ~~~~
+    + CategoryInfo          : ObjectNotFound: (nano:String) [], CommandNotFoundException
+    + FullyQualifiedErrornano "/mnt/d/1.Université Gustave eiffel/S2.Microservises/MiniProjet/Microservices/discovery-deployment.yaml"
